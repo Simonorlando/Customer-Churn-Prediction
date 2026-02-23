@@ -22,18 +22,21 @@ The final outputs are designed to be directly usable for business purposes, such
 ```
 customer-churn-analytics/
 ├── data/
-│   ├── raw/
-│   │   └── online_retail_raw.xlsx
-│   ├── processed/
-│   │   └── customer_360_snapshot_2011-09-01.xlsx
-│   └── outputs/
-│       └── churn_analysis_output.xlsx
+│ ├── raw/
+│ │ └── online_retail_raw.xlsx                    # Raw transactional dataset (source data)
+│ │
+│ ├── processed/
+│ │ └── customer_360_snapshot_2011-09-01.xlsx     # Customer-level aggregated dataset (Customer 360)
+│ │
+│ └── outputs/
+│ └── churn_analysis_output.xlsx                  # Final outputs (scores, segments, CLV, etc.)
+│
 ├── notebooks/
-│   └── churn.ipynb
-├── LICENSE
-├── README.md
-└── requirements.txt
-```
+│ └── churn.ipynb                                 # End-to-end analysis 
+│
+├── LICENSE 
+├── README.md 
+└── requirements.txt 
 ---
 
 ## Methodology

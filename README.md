@@ -36,7 +36,8 @@ customer-churn-analytics/
 │
 ├── LICENSE 
 ├── README.md 
-└── requirements.txt 
+└── requirements.txt
+```
 ---
 
 ## Methodology

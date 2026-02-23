@@ -23,13 +23,13 @@ The final outputs are designed to be directly usable for business purposes, such
 customer-churn-analytics/
 ├── data/
 │   ├── raw/
-│   │   └── online_retail_raw.xlsx            # Original transactional dataset
+│   │   └── online_retail_raw.xlsx                 # Original transactional dataset
 │   ├── processed/
 │   │   └── customer_360_snapshot_2011-09-01.xlsx  # Customer-level aggregated snapshot dataset
 │   └── outputs/
-│       └── churn_analysis_output.xlsx        # Final outputs (scores, segments, CLV, etc.)
+│       └── churn_analysis_output.xlsx             # Final outputs (scores, segments, CLV, etc.)
 ├── notebooks/
-│   └── churn.ipynb                           # End-to-end analysis notebook
+│   └── churn.ipynb                                # End-to-end analysis notebook
 ├── README.md
 └── requirements.txt
 ```

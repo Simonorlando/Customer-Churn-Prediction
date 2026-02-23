@@ -19,6 +19,7 @@ The final outputs are designed to be directly usable for business purposes, such
 ---
 
 ## Project Structure
+---
 customer-churn-analytics/
 ├── data/
 │   ├── raw/
